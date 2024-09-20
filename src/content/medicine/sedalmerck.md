@@ -1,0 +1,7 @@
+---
+name: 'Sedalmerck 40 tabletas'
+price: 100.00
+suggestion: 'Precio sugerido: $6.00 c/u'
+image: '/sedalmerk.jpg'
+
+---
