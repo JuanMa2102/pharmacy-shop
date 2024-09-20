@@ -1,16 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import SearchInput from '../components/SearchInput.astro';
-import ListProduct from '../components/ListProduct.astro';
 import { ListProductos } from '../components/ListProductos';
-import { SearchReactInput } from '../components/SearchReactInput';
 import { getCollection } from 'astro:content';
 
 const medicines = await getCollection('medicine')
 
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Persa">
 	<main>
 		<ListProductos client:load medicines={medicines}>
 	</main>
