@@ -6,6 +6,7 @@ export const SearchReactInput = ( { filterProducts } ) => {
 
   const onInputChange = ({target}) => {
     setinputValue(target.value)
+    filterProducts(target.value)
   }
 
   const onSubmit = (event) => {
